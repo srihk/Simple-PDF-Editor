@@ -2,7 +2,16 @@
 #Author: Sriharsha Kotcharlakot
 #Date: Sun, 16 Feb 2020
 
-from PyPDF4 import PdfFileReader, PdfFileWriter
+import subprocess
+
+def install(name):
+    subprocess.call(['pip3', 'install', name])
+
+try:
+    from PyPDF4 import PdfFileReader, PdfFileWriter
+except:
+    install("PyPDF4")
+    from PyPDF4 import PdfFileReader, PdfFileWriter
 
 def remove_page(pdf_path, page_numbers):
     pdf_writer = PdfFileWriter()
