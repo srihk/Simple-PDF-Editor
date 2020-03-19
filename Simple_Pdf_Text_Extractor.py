@@ -23,7 +23,7 @@ def extract_text(pdf_path):
         content = page.extractText()
         f.write(content)
 
-print("!!  Welcome to Simple PDF Text Extractor !!")
+print("!!  Welcome to Simple PDF Text Extractor  !!")
 print("Enter path to the required PDF:")
 path = input()
 extract_text(path)
