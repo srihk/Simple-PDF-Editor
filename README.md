@@ -3,7 +3,7 @@
 
 ## **How To Use**
 Clone or [*download*](https://github.com/sriharsha2000/Simple-PDF-Editor/archive/master.zip) the repo.\
-Run any of the scripts individually and enter the requested information. Corresponding output file will be generated in the current directory.
+Run any of the scripts individually and enter the requested information. Corresponding output file will be generated in the directory where the running script is present.
 
 ## **Dependencies**
 * [Python 3](https://www.python.org/downloads/)
