@@ -4,9 +4,9 @@
 
 ## **Can be used to**
 
-- **Extract** or **remove pages** from PDF files
-- **Extract text** from PDF files
-- **Generate audiobooks** from PDF files
+- [**Extract**](Simple_Pdf_Page_Extractor.py) or [**remove pages**](Simple_Pdf_Page_Remover.py) from PDF files
+- [**Extract text**](Simple_Pdf_Text_Extractor.py) from PDF files
+- [**Generate audiobooks**](Simple_Pdf_To_Audio_Book_Converter.py) from PDF files
 
 ## **How To Use**
 
