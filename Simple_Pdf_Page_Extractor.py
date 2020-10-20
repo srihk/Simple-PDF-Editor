@@ -24,9 +24,10 @@ def remove_page(pdf_path, page_numbers):
     with open('Resultant_PDF_After_Extraction.pdf', 'wb') as fh:
         pdf_writer.write(fh)
 
-print("!!  Welcome to Simple PDF Page Extractor  !!")
-print("Enter path to the required PDF:")
+print("!! Welcome to the pdf extractor ")
+print("Enter path to the required for the PDF:")
 path = input()
-print("Enter the page numbers (starting from 0) that are required to be extracted delimiting with spaces (For Example: 0 2 3 4 67 34):")
+print("Enter the page numbers (from 0) that are required to be extracted delimiting with spaces (For Example: 0 2 3 4 67 34):")
+
 page = list(map(int, input().split()))
 remove_page(path, page)
