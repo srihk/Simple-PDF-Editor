@@ -1,6 +1,6 @@
-#Simple PDF To Audio Book Converter in Python3
-#Author: Sriharsha Kotcharlakot
-#Date: Thu, 19 Mar 2020
+# Simple PDF To Audio Book Converter in Python3
+# Author: Sriharsha Kotcharlakot
+# Date: Thu, 19 Mar 2020
 
 import subprocess
 

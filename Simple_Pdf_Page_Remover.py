@@ -1,6 +1,6 @@
-#Simple PDF Page Remover in Python3
-#Author: Sriharsha Kotcharlakot
-#Date: Sun, 16 Feb 2020
+# Simple PDF Page Remover in Python3
+# Author: Sriharsha Kotcharlakot
+# Date: Sun, 16 Feb 2020
 
 import subprocess
 

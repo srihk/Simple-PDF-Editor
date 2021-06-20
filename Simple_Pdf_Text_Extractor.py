@@ -1,6 +1,6 @@
-#Simple PDF Text Extractor in Python3
-#Author: Sriharsha Kotcharlakot
-#Date: Wed, 18 Mar 2020
+# Simple PDF Text Extractor in Python3
+# Author: Sriharsha Kotcharlakot
+# Date: Wed, 18 Mar 2020
 
 import subprocess
 
